@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.swaglabs.test.EndToEndTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->

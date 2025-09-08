@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-07T17:41:23 IST" name="Surefire suite" finished-at="2025-09-07T17:42:44 IST" duration-ms="80766">
+    <groups>
+    </groups>
+    <test started-at="2025-09-07T17:41:23 IST" name="Surefire test" finished-at="2025-09-07T17:42:44 IST" duration-ms="80766">
+      <class name="com.swaglabs.test.EndToEndTest">
+        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:23 IST" name="setupreport" finished-at="2025-09-07T17:41:23 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupreport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:24 IST" name="setup" finished-at="2025-09-07T17:41:28 IST" duration-ms="3803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:28 IST" name="init" finished-at="2025-09-07T17:41:28 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tc_060_purchaseSingleProduct(java.lang.String,java.lang.String)[pri:1, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:28 IST" name="tc_060_purchaseSingleProduct" data-provider="logindata" finished-at="2025-09-07T17:41:34 IST" duration-ms="5698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_060_purchaseSingleProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:34 IST" name="teardown" finished-at="2025-09-07T17:41:34 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:34 IST" name="setup" finished-at="2025-09-07T17:41:36 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:36 IST" name="init" finished-at="2025-09-07T17:41:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tc_061_purchaseMultipleProducts(java.lang.String,java.lang.String)[pri:2, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:36 IST" name="tc_061_purchaseMultipleProducts" data-provider="logindata" finished-at="2025-09-07T17:41:42 IST" duration-ms="5855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_061_purchaseMultipleProducts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:42 IST" name="teardown" finished-at="2025-09-07T17:41:43 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:43 IST" name="setup" finished-at="2025-09-07T17:41:45 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:45 IST" name="init" finished-at="2025-09-07T17:41:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tc_sortAndCheckoutWithPriceValidation(java.lang.String,java.lang.String)[pri:3, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:45 IST" name="tc_sortAndCheckoutWithPriceValidation" data-provider="logindata" finished-at="2025-09-07T17:41:52 IST" duration-ms="6724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_sortAndCheckoutWithPriceValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:52 IST" name="teardown" finished-at="2025-09-07T17:41:52 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:52 IST" name="setup" finished-at="2025-09-07T17:41:54 IST" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:54 IST" name="init" finished-at="2025-09-07T17:41:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tc_endToend_054_cartPersistenceAcrossLogoutAndLogin(java.lang.String,java.lang.String)[pri:4, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:41:54 IST" name="tc_endToend_054_cartPersistenceAcrossLogoutAndLogin" data-provider="logindata" finished-at="2025-09-07T17:42:02 IST" duration-ms="8025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_endToend_054_cartPersistenceAcrossLogoutAndLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:02 IST" name="teardown" finished-at="2025-09-07T17:42:03 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:03 IST" name="setup" finished-at="2025-09-07T17:42:05 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:05 IST" name="init" finished-at="2025-09-07T17:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tc_endToend_055_resetAppStateClearsCart(java.lang.String,java.lang.String)[pri:5, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:05 IST" name="tc_endToend_055_resetAppStateClearsCart" data-provider="logindata" finished-at="2025-09-07T17:42:44 IST" duration-ms="38758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_endToend_055_resetAppStateClearsCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:44 IST" name="teardown" finished-at="2025-09-07T17:42:44 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.swaglabs.test.EndToEndTest@5e0826e7]" started-at="2025-09-07T17:42:45 IST" name="flushreport" finished-at="2025-09-07T17:42:45 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+      </class> <!-- com.swaglabs.test.EndToEndTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
