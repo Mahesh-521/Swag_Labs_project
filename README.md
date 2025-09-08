@@ -17,23 +17,24 @@ This project is an **automated testing framework** for the [Swag Labs](https://w
 ---
 
 ## 📂 Project Structure
-Swag-Labs-Project/
+Swag_Labs_project/
 ├── src/
-│ ├── main/
-│ │ └── java/com/swaglabs/
-│ │ ├── base/ # Base classes and setup
-│ │ ├── config/ # Configuration and property files
-│ │ ├── pages/ # Page Object classes
-│ │ ├── utils/ # Utility classes like Excel reader
-│ ├── test/
-│ └── java/com/swaglabs/
-│ ├── tests/ # Test classes using TestNG
-│ └── listeners/ # Test listeners for reports
-├── testdata/ # Excel files for test data
-├── reports/ # Test reports
-├── .gitignore # Files to ignore
-├── pom.xml # Maven dependencies
-└── README.md # Project documentation
+│   ├── main/
+│   │   └── java/com/swaglabs/
+│   │       ├── base/
+│   │       ├── config/
+│   │       ├── pages/
+│   │       ├── utils/
+│   ├── test/
+│       └── java/com/swaglabs/
+│           ├── tests/
+│           └── listeners/
+├── testdata/
+├── reports/
+├── .gitignore
+├── LICENSE
+└── README.md
+
 
 ---
 
