@@ -33,7 +33,7 @@ This project is an **automated testing framework** for the [Swag Labs](https://w
 ├── reports/
 ├── .gitignore
 ├── LICENSE
-└── README.md ```
+└── README.md 
 
 
 ---
