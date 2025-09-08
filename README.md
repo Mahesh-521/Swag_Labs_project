@@ -17,23 +17,23 @@ This project is an **automated testing framework** for the [Swag Labs](https://w
 ---
 
 ## 📂 Project Structure
-Swag_Labs_project/
+''' Swag_Labs_project/
 ├── src/
-│   ├── main/
-│   │   └── java/com/swaglabs/
-│   │       ├── base/
-│   │       ├── config/
-│   │       ├── pages/
-│   │       ├── utils/
-│   ├── test/
-│       └── java/com/swaglabs/
-│           ├── tests/
-│           └── listeners/
+│ ├── main/
+│ │ └── java/com/swaglabs/
+│ │ ├── base/
+│ │ ├── config/
+│ │ ├── pages/
+│ │ └── utils/
+├── test/
+│ └── java/com/swaglabs/
+│ ├── tests/
+│ └── listeners/
 ├── testdata/
 ├── reports/
 ├── .gitignore
 ├── LICENSE
-└── README.md
+└── README.md '''
 
 
 ---
