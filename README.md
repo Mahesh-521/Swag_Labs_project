@@ -17,7 +17,7 @@ This project is an **automated testing framework** for the [Swag Labs](https://w
 ---
 
 ## 📂 Project Structure
-''' Swag_Labs_project/
+``` Swag_Labs_project/
 ├── src/
 │ ├── main/
 │ │ └── java/com/swaglabs/
@@ -33,7 +33,7 @@ This project is an **automated testing framework** for the [Swag Labs](https://w
 ├── reports/
 ├── .gitignore
 ├── LICENSE
-└── README.md '''
+└── README.md ```
 
 
 ---
